@@ -1,0 +1,506 @@
+body {
+  font-family: 'Montserrat';
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+
+}
+
+/*title*/
+#title.container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+  color: #ddd;
+
+}
+
+.container-fluid {
+  padding: 1% 1%;
+}
+
+/*sections*/
+.colored-section {
+
+  color: #443C68;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat-Bold';
+}
+
+.btn {
+  background: #eed12d;
+  /* background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e); */
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: rgb(17, 17, 26);
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+
+
+}
+
+.btn:hover {
+  background: #d37122;
+  /* background-image: -webkit-linear-gradient(top, #30e3cb, #2bc480);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc480);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc480);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc480);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc480); */
+  text-decoration: none;
+}
+
+/*heading*/
+.big-heading {
+  color: #f6f5f8;
+  font-family: 'Montserrat-Black';
+  margin-right: -54px;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.row {
+  margin-left: 33%;
+}
+
+p {
+  color: blue;
+}
+
+/*navigation bar */
+.navbar {
+  padding: 0 0 14.5rem;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+
+}
+
+.nav-items {
+  color: aqua;
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+
+
+/* .linkedin{
+  height:20px;
+  width:20px;
+}
+.twitter{
+  height:20px;
+  width:20px;
+}
+.instagram{
+  height:20px;
+  width:20px;
+}
+.contact{
+  height:20px;
+  width:20px;
+}
+.contact-me{
+  text-align: center;
+}
+
+.social-icon{
+
+  margin: 50px 30px;
+} */
+
+
+
+
+/************************************** Contact **********************************************/
+.contact {
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent;
+  padding: 125px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url('https://source.unsplash.com/1600x900/?contact,message');
+}
+
+.contact h1 {
+  color: white;
+  text-align: center;
+}
+
+.contactcontanner {
+  width: 70%;
+  margin: 0 auto;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+.contactcontanner .contanner {
+  width: 30%;
+}
+
+.contactcontanner .contanner .heading {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  border: 2px solid black;
+  margin-bottom: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, .07);
+}
+
+.heading .icon {
+  padding: 0 0 0 20px;
+  font-size: 20px;
+  color: rgb(3, 180, 3);
+}
+
+.heading .info {
+  width: 70%;
+  margin: 25px auto;
+  color: white;
+}
+
+.heading .info #contactinfo {
+  color: black(255, 255, 255, 0.7);
+  font-weight: 500;
+}
+
+/* message form */
+.messageform {
+  width: 70%;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, .07);
+  margin-left: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.messageform .form {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.messageform input,
+.messageform #inputbox {
+  width: 100%;
+  color: black;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-top: 10px;
+  border: 2px solid black;
+  outline: none;
+  background-color: transparent;
+}
+
+.messageform button {
+  padding: 10px 50px;
+  margin-top: 20px;
+  font-size: 14px;
+  color: black;
+  letter-spacing: 1px;
+  background: linear-gradient(to right, transparent 50%, aqua(3, 180, 3) 50%);
+  background-size: 200%;
+  background-position: left;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.messageform button:hover {
+  background-position: right;
+}
+
+/* contact mobile view */
+@media only screen and (max-width : 700px) {
+  .contact {
+    padding: 50px 0;
+  }
+
+  .contactcontanner {
+    width: 95%;
+    display: block;
+  }
+
+  .contactcontanner .contanner {
+    width: 100%;
+  }
+
+  /* message form */
+  .messageform {
+    width: 100%;
+    margin-left: 0px;
+    padding: 1px 0;
+  }
+
+  .messageform .form {
+    width: 93%;
+    margin: 50px auto;
+  }
+}
+
+/* ************************************  Service  ************************** */
+.service {
+  width: 100%;
+  padding: 100px 0;
+  background-color: #F8F9FA;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.service h5 {
+  color: rgb(1, 99, 1);
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.service h1 {
+  font-size: 40px;
+  font-weight: 600;
+  padding-top: 10px;
+}
+
+/* details service */
+.service .details {
+  width: 75%;
+  display: flex;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.details .info {
+  padding: 0 15px;
+}
+
+.details .info .logo {
+  padding: 5px;
+  width: 45px;
+  margin: 0 auto;
+  background-color: rgb(1, 161, 1);
+  border-radius: 500px;
+  color: white;
+  font-size: 30px;
+}
+
+.details .info #head {
+  padding: 20px 0 10px;
+  color: black;
+  font-weight: 500;
+}
+
+@media only screen and (max-width : 700px)
+
+/* ************************************  Service  ************************** */
+.service {
+  padding: 70px 0;
+}
+
+.service h1 {
+  font-size: 30px;
+}
+
+/* details service */
+.service .details {
+  width: 100%;
+  display: block;
+  padding-top: 25px;
+}
+
+.details .info {
+  padding: 0 15px 25px;
+}
+
+.details .info .logo {
+  padding: 3px;
+  width: 45px;
+}
+
+
+/*login*/
+
+form {
+  border: 3px solid black;
+  background-color: #F0EEED;
+}
+
+/* Full-width inputs */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid black;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+button1 {
+  background-color: #04AA6D;
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+/* Add a hover effect for buttons */
+button1:hover {
+  opacity: 0.8;
+}
+
+/* Extra style for the cancel button (red) */
+.cancel1btn {
+  width: auto;
+  padding: 10px 18px;
+  background-color: #f44336;
+}
+
+.login {
+  padding: 8px;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+  span.psw {
+    display: block;
+    float: none;
+  }
+
+  .cancelbtn {
+    width: 100%;
+  }
+}
+
+/*  signup*/
+* {
+  box-sizing: border-box
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: white;
+}
+
+input[type=text]:focus,
+input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+  float: left;
+  width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+  .cancelbtn,
+  .signupbtn {
+    width: 100%;
+  }
+}
+
+/* footer css */
+.footer_container {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_p {
+  color: white;
+}
+
+.footer_items {
+  padding: 10px;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0.12) 0px 1px 1px 0px,
+    rgb(84, 105, 212) 0px 0px 0px 1px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(0, 0, 0, 0) 0px 0px 0px 0px,
+    rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+}
